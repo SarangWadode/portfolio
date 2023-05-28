@@ -1,127 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/9ddfc69c0c.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div id="header">
-            <div class="container">
-                <nav>
-                    <img src="images/logo1.png" class="logo">
-                    <ul id="sidemenu">
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#portfolio">Projects</a></li>
-                        <li><a href="#certificates">Certifications</a></li>
-                        <li><a href="#blogs">Blogs</a></li>
-                        <li><a href="#achievements">Achievements</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
-                    </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-                </nav>
-                <div class="header-text">
-                    <h1>Hi, I'm <span>Sarang Wadode</span></h1>
-                    <p>Full Stack Web developer / Software Engineer</p>
-                </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9ddfc69c0c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#certificates">Certifications</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Sarang Wadode</span></h1>
+                <p>Full Stack Web developer / Software Engineer</p>
             </div>
         </div>
-<!------------------------About----------------->
-        <div id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="images/profile.png">
-                    </div>
-                    <div class="about-col-2">
-                        <h1 class="sub-title">About Me</h1>
-                        <p>I am a fresher software engineer pursuing my B.Tech in Computer Science and Engineering from MITAOE. I have worked on various projects
-                            during my college days which has helped me develop my skills in the field of software development and testing. I am looking forward to work on
-                            challenging projects and hone my skills further.
-                             <br>
-                        </p>
+    </div>
+    <!------------------------About----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a fresher software engineer pursuing my B.Tech in Computer Science and Engineering from
+                        MITAOE. I have worked on various projects
+                        during my college days which has helped me develop my skills in the field of software
+                        development and testing. I am looking forward to work on
+                        challenging projects and hone my skills further.
+                        <br>
+                    </p>
 
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul class="skills">
-                                <li><i class="fa-brands fa-html5 fa-fade" style="color: #295e70;"></i><br>HTML</li>
-                                <li><i class="fa-brands fa-css3 fa-fade" style="color: #f74ac9;"></i><br>CSS</li>
-                                <li><i class="fa-brands fa-square-js fa-fade" style="color: #f5ef3d;"></i><br>JavaScript</li>
-                                <li><i class="fa-brands fa-react fa-fade" style="color: #41d2d2;"></i><br>React</li>
-                                <li><i class="fa-brands fa-node fa-fade" style="color: #3bce54;"></i><br>NodeJS</li>
-                                <li><i class="fa-brands fa-github fa-fade"></i><br>Github</li>
-                                <li><i class="fa-brands fa-python fa-fade" style="color: #348fbc;"></i><br>Python</li>
-                                <li><i class="fa-sharp fa-solid fa-c fa-fade" style="color: #591db4;"></i><br>CPP</li>
-                                <!-- <li>Shell Script</li>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul class="skills">
+                            <li><i class="fa-brands fa-html5 fa-fade" style="color: #295e70;"></i><br>HTML</li>
+                            <li><i class="fa-brands fa-css3 fa-fade" style="color: #f74ac9;"></i><br>CSS</li>
+                            <li><i class="fa-brands fa-square-js fa-fade" style="color: #f5ef3d;"></i><br>JavaScript
+                            </li>
+                            <li><i class="fa-brands fa-react fa-fade" style="color: #41d2d2;"></i><br>React</li>
+                            <li><i class="fa-brands fa-node fa-fade" style="color: #3bce54;"></i><br>NodeJS</li>
+                            <li><i class="fa-brands fa-github fa-fade"></i><br>Github</li>
+                            <li><i class="fa-brands fa-python fa-fade" style="color: #348fbc;"></i><br>Python</li>
+                            <li><i class="fa-sharp fa-solid fa-c fa-fade" style="color: #591db4;"></i><br>CPP</li>
+                            <!-- <li>Shell Script</li>
                                 <li>SQL</li>
                                 <li>MERN</li> -->
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="experience">
-                            <ul>
-                                <li><span>Jun 2022 - July 2022</span><br>Web Developer Intern at Celebal</li>
-                                <li><span>Jan 2023 - July 2023</span><br>Software Engineer Trainee at AMDOCS</li>
-                                
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>Aug-2019 - Current</span><br>B.Tech.| Computer Science & Engineering - MITAOE |
-                                    CGPA: 8.40 / 10.00</li>
-                                <li><span>2018</span><br>  HSC | 
-                                    Javahar Navodaya Vidyalaya Navsari Amravati, Amravati |
-                                    CBSE |
-                                    2018
-                                    Percentage: 84.47 / 100.00</li>
-                                <li><span>2016</span><br> SSC | 
-                                    Jawahar Navodaya Vidyalaya Navsari Amravati, Amravati | 
-                                    CBSE |
-                                    2016
-                                    Percentage: 92.60 / 100.00</li>
-                            </ul>
-                        </div>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jun 2022 - July 2022</span><br>Web Developer Intern at Celebal</li>
+                            <li><span>Jan 2023 - July 2023</span><br>Software Engineer Trainee at AMDOCS</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Aug-2019 - Current</span><br>B.Tech.| Computer Science & Engineering - MITAOE |
+                                CGPA: 8.40 / 10.00</li>
+                            <li><span>2018</span><br> HSC |
+                                Javahar Navodaya Vidyalaya Navsari Amravati, Amravati |
+                                CBSE |
+                                2018
+                                Percentage: 84.47 / 100.00</li>
+                            <li><span>2016</span><br> SSC |
+                                Jawahar Navodaya Vidyalaya Navsari Amravati, Amravati |
+                                CBSE |
+                                2016
+                                Percentage: 92.60 / 100.00</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-  <!------------Projects---------------------->
-  <div id="portfolio">
+    </div>
+    <!------------Projects---------------------->
+    <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">Projects</h1>
             <div class="work-list">
                 <div class="work">
                     <img src="images/projects/AI Tools wp.png">
-                        <div class="layer">
-                            <h3> AI Tools</h3>
-                            <p>key skills</p>
-                            <p>- AI Tools is a platform where users may use various AI services.
-                                - AI Services were provided by Cellstrat Hub
-                                - The project earned the hackathon's top prize
-                            </p>
-                            <a href="https://github.com/mukeshgurpude/ai-tools"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                </div>
-                <div class="work">
-                    <img src="images/projects/crops.png">
                     <div class="layer">
-                        <h3>Crop-Disease-Prediction</h3>
-                        <p>Flask
-                            Deep Learning
-                            Keras
-                            API</p>
-                        <p>Web application to detect the given image of the crop is diseased or not.
-                            For frontend Flask is used and Resnet152v2 a Keras model is used for
-                            image classification.</p>
-                        <a href="https://github.com/SarangWadode/disease-prediction"><i class="fas fa-external-link-alt"></i></a>
+                        <h3> AI Tools</h3>
+                        <p>key skills</p>
+                        <p>- AI Tools is a platform where users may use various AI services.
+                            - AI Services were provided by Cellstrat Hub
+                            - The project earned the hackathon's top prize
+                        </p>
+                        <a href="https://github.com/mukeshgurpude/ai-tools"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -137,8 +128,8 @@
                         <p>A web application which removes the spam and fake reviews according to
                             the algorithm which we have build, Sentiment analysis is done to analyse
                             sentiment of review, backend is done in django and reactjs is used for
-                            frontend.</p> 
-                            <a href="https://spam-filter-sigma.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                            frontend.</p>
+                        <a href="https://spam-filter-sigma.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -146,8 +137,9 @@
                     <div class="layer">
                         <h3>JavaScript30</h3>
                         <p>HTML CSS JavaScript</p>
-                        <p>Completed 30 javascript projects under this.</p> 
-                            <a href="https://github.com/SarangWadode/javascript30"><i class="fas fa-external-link-alt"></i></a>
+                        <p>Completed 30 javascript projects under this.</p>
+                        <a href="https://github.com/SarangWadode/javascript30"><i
+                                class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -155,14 +147,30 @@
                     <div class="layer">
                         <h3>DevChallenges</h3>
                         <p>HTML CSS JavaScript</p>
-                        <p>Solutions for the responsive web development challenges at devchallenges.io</p> 
-                            <a href="https://github.com/SarangWadode/devchallenges-responsive"><i class="fas fa-external-link-alt"></i></a>
+                        <p>Solutions for the responsive web development challenges at devchallenges.io</p>
+                        <a href="https://github.com/SarangWadode/devchallenges-responsive"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/projects/crops.png">
+                    <div class="layer">
+                        <h3>Crop-Disease-Prediction</h3>
+                        <p>Flask
+                            Deep Learning
+                            Keras
+                            API</p>
+                        <p>Web application to detect the given image of the crop is diseased or not.
+                            For frontend Flask is used and Resnet152v2 a Keras model is used for
+                            image classification.</p>
+                        <a href="https://github.com/SarangWadode/disease-prediction"><i
+                                class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
             <a href="https://github.com/SarangWadode" class="btn">See More</a>
         </div>
-  </div>
+    </div>
 
 
 
@@ -176,63 +184,68 @@
                     <img src="certificates/devdays.png">
                     <div class="layer">
                         <h3>DevDays2022 Hackathon</h3>
-                        <a href=""><i class="fas fa-external-link-alt"></i></a>
-                    </div> 
+                        <a href="certificates/devdays.png"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
                 <div class="certi">
                     <img src="certificates/python_ca.png">
                     <div class="layer">
                         <h3>Python (By Coursera)</h3>
-                        <a href="https://www.coursera.org/account/accomplishments/certificate/P2P7VYQ89HMA"><i class="fas fa-external-link-alt"></i></a>
-                    </div> 
+                        <a href="https://www.coursera.org/account/accomplishments/certificate/P2P7VYQ89HMA"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
                 <div class="certi">
                     <img src="certificates/dotquestionmark.png">
-                        <div class="layer">
-                            <h3>C++ Mastercourse (dotQuestionMark)</h3>
-                            <a href=""><i class="fas fa-external-link-alt"></i></a>
-                        </div> 
+                    <div class="layer">
+                        <h3>C++ Mastercourse (dotQuestionMark)</h3>
+                        <a href="certificates/dotquestionmark.png"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
                 <div class="certi">
                     <img src="certificates/backEnd-APIs.png.png">
                     <div class="layer">
                         <h3>BackEnd APIs and Microserices(FCC)</h3>
-                        <a href="https://www.freecodecamp.org/certification/sarangwadode/back-end-development-and-apis"><i class="fas fa-external-link-alt"></i></a>
-                    </div> 
+                        <a href="https://www.freecodecamp.org/certification/sarangwadode/back-end-development-and-apis"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
                 <div class="certi">
                     <img src="certificates/ncat.png">
                     <div class="layer">
                         <h3>National Creativity Aptitude Test</h3>
-                        <a href=""><i class="fas fa-external-link-alt"></i></a>
-                    </div> 
+                        <a href="certificates/ncat.png"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
                 <div class="certi">
                     <img src="certificates/js algos and ds.png">
                     <div class="layer">
                         <h3>JavaScript Algorithms and Data Structure(FCC)</h3>
-                        <a href="https://www.freecodecamp.org/certification/sarangwadode/javascript-algorithms-and-data-structures"><i class="fas fa-external-link-alt"></i></a>
-                    </div> 
+                        <a
+                            href="https://www.freecodecamp.org/certification/sarangwadode/javascript-algorithms-and-data-structures"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
                 <div class="certi">
                     <img src="certificates/res_dev.png">
                     <div class="layer">
                         <h3>Web Development(DevChallenges) </h3>
-                        <a href="https://devchallenges.io/certificates/GJbbIWJxWGxHNLOIn1CX"><i class="fas fa-external-link-alt"></i></a>
-                    </div> 
+                        <a href="https://devchallenges.io/certificates/GJbbIWJxWGxHNLOIn1CX"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
                 <div class="certi">
                     <img src="certificates/angular.png">
                     <div class="layer">
                         <h3>Angular (Infosys Springboard)</h3>
-                        <a href=""><i class="fas fa-external-link-alt"></i></a>
-                    </div> 
+                        <a href="certificates/angular.png"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
             </div>
-            <div><a href="https://sarangwadode.hashnode.dev/" class="btn" target="_blank">View More</a></div>
+            <div><a href="https://github.com/SarangWadode/portfolio/tree/main/certificates" class="btn" target="_blank">View More</a></div>
         </div>
-    </div>     
-    
+    </div>
+
     <!------------blog---------------------->
 
     <div id="blogs">
@@ -241,51 +254,57 @@
             <div class="certi-list">
                 <div class="certi">
                     <img src="images/blogs/vue vs react.avif">
-                        <div class="layer">
-                            <h3>ReactJS vs VueJS: Which is Better for Your Project?</h3>
-                            <a href="https://sarangwadode.hashnode.dev/reactjs-vs-vuejs-which-is-better-for-your-project" target="_blank">Read <i class="fas fa-external-link-alt"></i></a>
-                        </div> 
+                    <div class="layer">
+                        <h3>ReactJS vs VueJS: Which is Better for Your Project?</h3>
+                        <a href="https://sarangwadode.hashnode.dev/reactjs-vs-vuejs-which-is-better-for-your-project"
+                            target="_blank">Read <i class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
                 <div class="certi">
                     <img src="images/blogs/5 websites to learn Frontend-web development faster.webp">
                     <div class="layer">
                         <h3>5 websites to learn Frontend-web development faster</h3>
-                        <a href="https://sarangwadode.hashnode.dev/5-websites-to-learn-frontend-web-development-faster" target="_blank">Read <i class="fas fa-external-link-alt"></i></a>
-                    </div> 
+                        <a href="https://sarangwadode.hashnode.dev/5-websites-to-learn-frontend-web-development-faster"
+                            target="_blank">Read <i class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
                 <div class="certi">
                     <img src="images/blogs/Cheat Sheets that always save time during web development 🚀.png">
                     <div class="layer">
                         <h3>Cheat Sheets that always save time during web development 🚀</h3>
-                        <a href="https://sarangwadode.hashnode.dev/cheat-sheets-that-always-save-time-during-web-development" target="_blank">Read <i class="fas fa-external-link-alt"></i></a>
-                    </div> 
+                        <a href="https://sarangwadode.hashnode.dev/cheat-sheets-that-always-save-time-during-web-development"
+                            target="_blank">Read <i class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
                 <div class="certi">
                     <img src="images/blogs/destructure.png">
                     <div class="layer">
                         <h3>JavaScript object destructuring</h3>
-                        <a href="https://sarangwadode.hashnode.dev/javascript-object-destructuring" target="_blank">Read <i class="fas fa-external-link-alt"></i></a>
-                    </div> 
+                        <a href="https://sarangwadode.hashnode.dev/javascript-object-destructuring" target="_blank">Read
+                            <i class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
                 <div class="certi">
                     <img src="images/blogs/react-cheat-sheet.png">
                     <div class="layer">
                         <h3>React JS Cheatsheet</h3>
-                        <a href="https://sarangwadode.hashnode.dev/react-js-cheatsheet" target="_blank">Read <i class="fas fa-external-link-alt"></i></a>
-                    </div> 
+                        <a href="https://sarangwadode.hashnode.dev/react-js-cheatsheet" target="_blank">Read <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
                 <div class="certi">
                     <img src="images/blogs/react-best-practices-cover.png">
                     <div class="layer">
                         <h3>React - Best Practices</h3>
-                        <a href="https://sarangwadode.hashnode.dev/react-best-practices" target="_blank">Read <i class="fas fa-external-link-alt"></i></a>
-                    </div> 
+                        <a href="https://sarangwadode.hashnode.dev/react-best-practices" target="_blank">Read <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
             </div>
             <div><a href="https://sarangwadode.hashnode.dev/" class="btn" target="_blank">More blogs</a></div>
         </div>
-    </div>     
-    
+    </div>
+
     <!------------Achievements---------------------->
     <div id="achievements">
         <div class="container">
@@ -322,7 +341,9 @@
                         <p>Secured First position at MachineHack's Employee Attrition Predictathon</p>
                     </div>
                     <div class="plat">
-                        <a href="https://www.hackerrank.com/sarangwadode"><i class="fa-brands fa-hackerrank fa-fade fa-2xl" style="color: #42e045; font-size: -webkit-xxx-large;"></i></a>
+                        <a href="https://www.hackerrank.com/sarangwadode"><i
+                                class="fa-brands fa-hackerrank fa-fade fa-2xl"
+                                style="color: #42e045; font-size: -webkit-xxx-large;"></i></a>
                     </div>
                 </div>
                 <div class="ach">
@@ -331,7 +352,8 @@
                         <p>Github</p>
                     </div>
                     <div class="plat">
-                        <a href="https://github.com/sarangwadode"><i class="fa-brands fa-github fa-fade" style="color: #c1d9ff; font-size: -webkit-xxx-large;"></i></a>
+                        <a href="https://github.com/sarangwadode"><i class="fa-brands fa-github fa-fade"
+                                style="color: #c1d9ff; font-size: -webkit-xxx-large;"></i></a>
                     </div>
                 </div>
                 <div class="ach">
@@ -340,14 +362,15 @@
                         <p>Leetcode</p>
                     </div>
                     <div class="plat">
-                        <a href="https://leetcode.com/sarangwadode/"><i class="fa-sharp fa-solid fa-code fa-fade" style="color: #f2ee07; font-size: -webkit-xxx-large;"></i></a>
+                        <a href="https://leetcode.com/sarangwadode/"><i class="fa-sharp fa-solid fa-code fa-fade"
+                                style="color: #f2ee07; font-size: -webkit-xxx-large;"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
     <!---------------contact-------------->
-    
+
     <div id="contact">
         <div class="container">
             <div class="row">
@@ -356,20 +379,21 @@
                     <p><i class="fa-sharp fa-solid fa-envelope"></i>sarangwadode@gmail.com</p>
                     <p><i class="fa-solid fa-square-phone"></i>8080675561</p>
                     <div class="social-icons">
-                        <a href="https://www.facebook.com/profile.php?id=100013886919786"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100013886919786"><i
+                                class="fa-brands fa-facebook"></i></a>
                         <a href=""><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/sarangwadode/"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                     <a href="resume.pdf" download class="btn btn2" target="_blank">Download Resume</a>
                 </div>
                 <div class="contact-right">
-                        <form name="submit-to-google-sheet">
-                            <input type="text" name="Name" placeholder="Your name" required>
-                            <input type="email" name="Email" placeholder="Your email" requied>
-                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                            <button type="Submit" class="btn btn2">Submit</button>
-                        </form>
-                        <span id="msg"></span>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" requied>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
@@ -377,36 +401,36 @@
             <p>copyright @sarangwadode</p>
         </div>
     </div>
-    
-    
+
+
     <script>
 
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-    
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
         }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
 
     </script>
 
     <script>
-        
+
         var sidemenu = document.getElementById("sidemenu");
-        
-        function openmenu(){
-                sidemenu.style.right = "0";
+
+        function openmenu() {
+            sidemenu.style.right = "0";
         }
 
-        function closemenu(){
-                sidemenu.style.right = "-200px";
+        function closemenu() {
+            sidemenu.style.right = "-200px";
         }
 
     </script>
@@ -414,19 +438,20 @@
         const scriptURL = 'https://script.google.com/macros/s/AKfycby5DmST114vDDXVYKh-3LphV8H7iFoIbwVwySdeDbupR2tQcTYwyG9UPkg2wuLXQ3zg/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
-      
+
         form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message sent successfully"
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                },5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-      </script>
-    </body>
+    </script>
+</body>
+
 </html>
